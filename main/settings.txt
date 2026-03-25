@@ -1,0 +1,60 @@
+{
+    "cmake.configureOnOpen": true,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "C:\\msys32\\msys2_shell.cmd"
+            ],
+            "args": [
+                "-defterm", 
+                "-mingw32", 
+                "-no-start", 
+                "-here"
+            ],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "terminal.integrated.shell.windows": "C:\\msys32\\msys2_shell.cmd",
+    "terminal.integrated.shellArgs.windows": [
+        "-defterm", 
+        "-mingw32", 
+        "-no-start", 
+        "-here"
+    ],
+    "idf.espIdfPathWin": "c:\\Users\\Andrey\\.platformio\\packages\\esp-idf-v5.1",
+    "idf.pythonBinPathWin": "c:\\Users\\Andrey\\.platformio\\packages\\python_env\\idf5.1_py3.11_env\\Scripts\\python.exe",
+    "idf.toolsPathWin": "c:\\Users\\Andrey\\.platformio\\packages",
+    "idf.customExtraPaths": "c:\\Users\\Andrey\\.platformio\\packages\\tools\\xtensa-esp-elf-gdb\\12.1_20221002\\xtensa-esp-elf-gdb\\bin;c:\\Users\\Andrey\\.platformio\\packages\\tools\\riscv32-esp-elf-gdb\\12.1_20221002\\riscv32-esp-elf-gdb\\bin;c:\\Users\\Andrey\\.platformio\\packages\\tools\\xtensa-esp32-elf\\esp-12.2.0_20230208\\xtensa-esp32-elf\\bin;c:\\Users\\Andrey\\.platformio\\packages\\tools\\xtensa-esp32s2-elf\\esp-12.2.0_20230208\\xtensa-esp32s2-elf\\bin;c:\\Users\\Andrey\\.platformio\\packages\\tools\\xtensa-esp32s3-elf\\esp-12.2.0_20230208\\xtensa-esp32s3-elf\\bin;c:\\Users\\Andrey\\.platformio\\packages\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin;c:\\Users\\Andrey\\.platformio\\packages\\tools\\esp32ulp-elf\\2.35_20220830\\esp32ulp-elf\\bin;c:\\Users\\Andrey\\.platformio\\packages\\tools\\cmake\\3.24.0\\bin;c:\\Users\\Andrey\\.platformio\\packages\\tools\\openocd-esp32\\v0.12.0-esp32-20230419\\openocd-esp32\\bin;c:\\Users\\Andrey\\.platformio\\packages\\tools\\ninja\\1.10.2;c:\\Users\\Andrey\\.platformio\\packages\\tools\\idf-exe\\1.0.3;c:\\Users\\Andrey\\.platformio\\packages\\tools\\ccache\\4.8\\ccache-4.8-windows-x86_64;c:\\Users\\Andrey\\.platformio\\packages\\tools\\dfu-util\\0.11\\dfu-util-0.11-win64;c:\\Users\\Andrey\\.platformio\\packages\\tools\\esp-rom-elfs\\20230320",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "c:\\Users\\Andrey\\.platformio\\packages\\tools\\openocd-esp32\\v0.12.0-esp32-20230419/openocd-esp32/share/openocd/scripts",
+        "IDF_CCACHE_ENABLE": "1",
+        "ESP_ROM_ELF_DIR": "c:\\Users\\Andrey\\.platformio\\packages\\tools\\esp-rom-elfs\\20230320/"
+    },
+    "idf.gitPathWin": "c:\\Users\\Andrey\\.platformio\\packages\\tools\\idf-git\\2.39.2\\cmd\\git.exe",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "settingsSync.ignoredSettings": [
+
+    ],
+    "cmake.configureSettings": {
+
+    },
+    "C_Cpp.default.compilerPath": "C:\\msys32\\usr\\bin\\gcc.exe",
+    "json.schemas": [
+
+
+    ],
+    "idf.monitorBaudRate": "115200",
+    "workbench.statusBar.visible": false,
+    "makefile.configureOnOpen": true
+}
